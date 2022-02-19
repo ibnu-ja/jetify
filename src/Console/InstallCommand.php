@@ -50,7 +50,7 @@ class InstallCommand extends Command
         $this->replaceInFile('/home', '/dashboard', app_path('Providers/RouteServiceProvider.php'));
 
         // Fortify Provider...
-        // copy(base_path('vendor/laravel/fortify/stubs/FortifyServiceProvider.php'), app_path('Providers/FortifyServiceProvider.php'));
+        copy(base_path('vendor/laravel/fortify/stubs/FortifyServiceProvider.php'), app_path('Providers/FortifyServiceProvider.php'));
         $this->installServiceProviderAfter('RouteServiceProvider', 'FortifyServiceProvider');
 
         // Configure Session...
