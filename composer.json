@@ -1,0 +1,29 @@
+{
+    "name": "ibnu-ja/jetify",
+    "description": "Laravel Jetstream Inertia.js + Vite + Vuetify",
+    "license": "MIT",
+    "keywords": [
+        "ibnu-ja",
+        "laravel",
+        "jetify",
+        "vuetify",
+        "jetstream",
+        "vite"
+    ],
+    "autoload": {
+        "psr-4": {
+            "IbnuJa\\Jetify\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ibnu",
+            "email": "ibnu.magang@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "laravel/jetstream": "^2.6"
+    },
+    "minimum-stability": "dev"
+}
