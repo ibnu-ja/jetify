@@ -25,5 +25,12 @@
         "php": "^8.0",
         "laravel/jetstream": "^2.6"
     },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "IbnuJa\\Jetify\\JetifyServiceProvider"
+            ]
+        }
+    },
     "minimum-stability": "dev"
 }
