@@ -22,7 +22,6 @@
             <form @submit.prevent="submit">
               <v-text-field
                 v-model="form.password"
-                dense
                 outlined
                 label="Password"
                 required

@@ -27,7 +27,6 @@
               <validation-errors class="mb-4" />
               <v-text-field
                 v-model="form.email"
-                dense
                 outlined
                 label="Email Address"
                 required

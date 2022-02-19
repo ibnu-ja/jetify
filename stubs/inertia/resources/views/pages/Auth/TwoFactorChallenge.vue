@@ -32,7 +32,6 @@
                 class="mt-1 block w-full"
                 autofocus
                 autocomplete="one-time-code"
-                dense
                 outlined
                 label="Code"
                 required
@@ -46,7 +45,6 @@
                 class="mt-1 block w-full"
                 autofocus
                 autocomplete="one-time-code"
-                dense
                 outlined
                 label="Recovery Code"
                 required
