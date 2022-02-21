@@ -35,10 +35,14 @@ npm install
 yarn install
 php artisan migrate
 ```
-
+Publish Laravel-Vite configuration
+```
+php artisan vendor:publish --tag=vite-config
+```
 Then, serve the application
 
 ```
 npm run dev
 # or with yarn
-yarn dev```
+yarn dev
+```
